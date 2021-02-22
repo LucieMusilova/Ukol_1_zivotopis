@@ -1,0 +1,146 @@
+body {
+  color:#282425;
+  background-color: #f8eef8;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+a {
+  color:#756158;
+}
+
+
+
+.jmeno {
+  background-image: url(obrazky/pozadi_1.jpg);
+  padding: 250px 30px;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 36px;
+}
+
+a {
+  font-style: italic;
+}
+
+.omne,
+.znalosti,
+.fotogalerie,
+.foto-socialni_site {
+  background-color: #ebdbf1 ;
+}
+
+.paticka {
+  background-color: #282425 ;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.kontakt a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.foto-omne {
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 60px 30px 0;
+}
+
+.omne p {
+  margin-top: 80px;
+}
+
+.kontakt p,
+.vycet {
+  margin-top: 70px;
+}
+
+
+.foto-laptop {
+  width: 400px;
+  float: right;
+  margin: 70px 0 30px 60px;
+}
+
+.foto-kytara {
+  width: 500px;
+  float: left;
+  margin: 0 300px 30px 0;
+}
+
+.fotogalerie img {
+  width: 24%;
+  border: 1px solid #756158;
+  border-radius: 10px;
+}
+
+.foto-kontakt {
+  width: 150px;
+  border-radius: 0 50px 50px 50px;
+  float: left;
+  margin: 0 70px 30px 70px;
+}
+
+
+.foto-socialni_site img {
+  width: 30px;
+  padding: 10px 10px;
+  float: right;
+}
+
+section {
+  padding: 30px 15%;
+  overflow: auto;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  background-color:#A574A6;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  background-color:#763c77;
+}
+
